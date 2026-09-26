@@ -1,0 +1,19 @@
+*{box-sizing:border-box}
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:#f3f4f6;color:#111827}
+.wrap{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:20px}
+.card{width:100%;max-width:520px;background:white;border-radius:24px;padding:28px;box-shadow:0 10px 35px #00000012}
+.logo{width:58px;height:58px;border-radius:18px;background:#111827;color:white;display:grid;place-items:center;font-size:28px;font-weight:800;margin:auto}
+h1{text-align:center;margin:16px 0 8px;font-size:25px}
+.sub{text-align:center;color:#6b7280;margin:0 0 28px}
+label{display:block;font-weight:700;margin-bottom:8px}
+.input-row{display:flex;gap:8px}
+input{min-width:0;flex:1;padding:15px;border:1px solid #d1d5db;border-radius:13px;font-size:16px;outline:none}
+input:focus{border-color:#111827}
+button{border:0;border-radius:13px;font-weight:700;cursor:pointer}
+#paste{padding:0 15px;background:#e5e7eb}
+.download{width:100%;padding:16px;margin-top:12px;background:#111827;color:white;font-size:16px}
+.download:disabled{opacity:.55}
+.status{margin-top:18px;text-align:center;color:#4b5563;min-height:24px}
+.result{display:none;margin-top:14px;text-align:center;text-decoration:none;background:#16a34a;color:white;padding:15px;border-radius:13px;font-weight:700}
+.note{text-align:center;color:#9ca3af;font-size:12px;margin-top:24px}
+@media(max-width:430px){.card{padding:22px}.input-row{flex-direction:column}#paste{padding:13px}.wrap{padding:12px}}
